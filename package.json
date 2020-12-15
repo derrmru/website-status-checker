@@ -1,0 +1,17 @@
+{
+  "name": "online-test",
+  "version": "1.0.0",
+  "description": "Programmatically test if multiple websites are online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Sweeney",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "puppeteer": "^5.5.0"
+  }
+}
