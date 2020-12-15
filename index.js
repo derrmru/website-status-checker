@@ -43,8 +43,8 @@ app.get('/', (req, res) => {
           })
           
           const mailOptions = {
-            from: 'peter.webcheck@podogo.com',
-            to: 'peter@podogo.com',
+            from: process.env.APP_EMAIL,
+            to: process.env.APP_EMAIL,
             subject: 'Today\'s Site Status Results',
             text: 'The attached websites have been logged and are online.',
             attachments: attachments
